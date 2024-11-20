@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="container">
+            <div class="logos">
+                <img src="img/logo.svg" alt="Logo">
+                <p><a href="">Kurslar</a> <img src="img/Book.png" alt="Book"></p>
+            </div>
+
+            <div class="about">
+                <ul>
+                    <li><a href="">Bizning ustozlarimiz</a></li>
+                    <li><a href="">Biz haqimizda</a></li>
+                </ul>
+            </div>
+
+            <div class="number">
+                <ul>
+                    <select onchange="changeLanguage(this.value)">
+                        <option value="uz">Uz</option>
+                        <option value="ru">Рус</option>
+                        <option value="en">Eng</option>
+                    </select>
+                    <li>
+                        <img src="img/call.png" alt="Call Phone">
+                        <a href="tel:+998901234567">Telefon: +998 90 123 45 67</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="hero">
+        <div class="hero__study--center">
+            <p>Zamonaviy IT o'quv markazi <i class="fa-solid fa-star"></i></p>
+            <p class="sharh">Biz sizga <span>zamonaviy kasbni</span> o'rganishga va ish <br> boshlashingizga yordam
+                beramiz</p>
+            <button>Kurslarni tanlash</button>
+        </div>
+
+        <div class="hero__img">
+            <img src="img/rasm1.png" alt="IT Center">
+        </div>
+    </div>
+
+
+    <div class="kurslar">
+        <h3>Biz o'rgatadigan kurslar</h3>
+        <div class="kurs">
+            <div class="kurs__cards">
+
+                <div class="dasturlash">
+                    <div class="dasturlash__img">
+                        <h4>Dasturlash</h4>
+                        <button>Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="dizayn">
+                    <div class="dizayn__img">
+                        <h4>Dizayn</h4>
+                        <button>Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="logistika">
+                    <div class="logistika__img">
+                        <h4>Logistika broketligi</h4>
+                        <button>Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="videomontaj">
+                    <div class="videomontaj__img">
+                        <h4>Videomontaj va maxsus <br> effectlar</h4>
+                        <button>Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kurs__cards2">
+                <div class="marketing">
+                    <div class="marketing__img">
+                        <h4>Marketing</h4>
+                        <button>Batafsil <i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <div class="yangi--kurs">
+                    <h4>Tez orada yangi kurs !</h4>
+                    <div class="yangi__kurs">
+                        <ul class="yangi__kurs--text">
+                            <li>Tez orada yangi kurs!</li>
+                            <li>Tez orada yangi kurs!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ustozlar">
+        <h3>Bizning Ustozlarimiz</h3>
+        <div class="ustoz">
+            <div class="teacher">
+                <img class="teacher__img" src="img/teacher-1.png" alt="ustoz 1">
+                <p class="teacher__name">Alisherova Anvara</p>
+                <p class="teacher__job"><img src="img/1-logo.png" alt="logo 1">Dasturlash ustozi</p>
+            </div>
+            <div class="teacher">
+                <img class="teacher__img" src="img/teacher-1.png" alt="ustoz 2">
+                <p class="teacher__name">Antota Nargiza</p>
+                <p class="teacher__job"><img src="img/2-logo.png" alt="logo 2">UX/UI ustozi</p>
+            </div>
+            <div class="teacher">
+                <img class="teacher__img" src="img/teacher-1.png" alt="ustoz 3">
+                <p class="teacher__name">Jo'rayev Akbar</p>
+                <p class="teacher__job"><img src="img/3-logo.png" alt="logo 3">Logistika ustozi</p>
+            </div>
+            <div class="teacher">
+                <img class="teacher__img" src="img/teacher-1.png" alt="ustoz 4">
+                <p class="teacher__name">Mamaraimov Grichka</p>
+                <p class="teacher__job"><img src="img/4-logo.png" alt="logo 4">Marketing ustozi</p>
+            </div>
+            <div class="teacher">
+                <img class="teacher__img" src="img/teacher-1.png" alt="ustoz 5">
+                <p class="teacher__name">Zokir Malikov</p>
+                <p class="teacher__job"><img src="img/5-logo.png" alt="logo 5">Videomontaj ustozi</p>
+            </div>
+            <div class="teacher">
+                <img class="teacher__img" src="img/teacher-1.png" alt="ustoz 6">
+                <p class="teacher__name">Anvara Xoliqova</p>
+                <p class="teacher__job"><img src="img/1-logo.png" alt="logo 6">Dasturlash ustozi</p>
+            </div>
+            <div class="teacher">
+                <img class="teacher__img" src="img/teacher-1.png" alt="ustoz 7">
+                <p class="teacher__name">Alisherova Anvara</p>
+                <p class="teacher__job"><img src="img/1-logo.png" alt="logo 7">Dasturlash ustozi</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="biz__haqimizda">
+        <h3>Biz haqimizda</h3>
+
+        <div class="katta__div">
+            <div class="academy">
+                <div class="about__img__p">
+                    <img src="img/qo'lbelgi.svg" alt="Mark">
+                    <p>Farobiy IT Academy - da biz oddiy ko'rinadigan yaratish harakati odamlar hayotida o'sish.</p>
+                </div>
+                <img src="img/haqimzdarasm1.svg" alt="Rasm 1">
+            </div>
+
+            <!-- something -->
+
+            <div class="community__group">
+                <img src="img/haqimizdarasm2.svg" alt="Rasm 2">
+                <div class="group__img__p">
+                    <img src="img/belgi2.svg" alt="Mark 2">
+                    <p>Farobiy IT Academy - bu illyustratsiya, dizayn, fotografiya, video, freelancing va boshqa
+                        mavzularda
+                        ijodiy va qiziquvchan.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="savollar">
+        <h3>Ko'p so'raladigan savollar</h3>
+        <ul class="savollar__item">
+            <li class="savol">
+                <p>Farobiy IT Academy bu nima?</p> <img src="img/plus.svg" alt="plus">
+            </li>
+            <li class="savol">
+                <p>Farobiy IT Academy a'zoligimga nimalar kiradi?</p> <img src="img/plus.svg" alt="plus">
+            </li>
+            <li class="savol">
+                <p>Farobiy IT Academy dan nimani o'rganishim mumkin?</p> <img src="img/plus.svg" alt="plus">
+            </li>
+            <li class="savol">
+                <p>Sinovim tugagandan keyin nima bo'ladi?</p> <img src="img/plus.svg" alt="PLus">
+            </li>
+            <li class="savol">
+                <p>Farobiy IT Academy da dars bera olamanmi?</p> <img src="img/plus.svg" alt="PLus">
+            </li>
+        </ul>
+    </div>
+
+    <div class="support">
+        <div class="yordam">
+            <h3>Tanlovda yordam beramis!</h3>
+            <p>Kurs haqida savollaringiz bo'lsa yoki nimani tanlashni bilmasangiz, raqamingizni qoldiring - biz barcha
+                savollaringizga javob beramiz.</p>
+            <div class="support__img"></div>
+        </div>
+
+
+        <div class="networks">
+            <input required class="ism__int" type="text" placeholder="Ismingiz">
+            <div class="email__nomer">
+                <input required type="number" placeholder="Telefon raqamingiz">
+                <input required type="email" placeholder="Pochtangiz">
+            </div>
+            <button class="network__btn">Yuborish</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot__log--p">
+            <img src="img/logo.svg" alt="Logo">
+            <ul class="foot__ul">
+                <li class="footer__li">
+                    <p class="foots__p">Manzil</p>
+                    <p class="foot__p">Toshkent shahri, Yunusobod tumani, ko'ch. Amir Temur 129B</p>
+                </li>
+                <li class="footer__li">
+                    <p class="foots__p">Yordam</p>
+                    <p class="foot__p">+998 91 7775411</p>
+                </li>
+                <li class="footer__li">
+                    <p class="foots__p">Pochta</p>
+                    <p class="foot__p">Info@farobiy.com</p>
+                </li>
+            </ul>
+        </div>
+        <p class="eslatma">Biz sizga mahsulot sotish uchun bu yerda emasmiz, biz tajribamiz orqali
+            qiymat sotamiz.</p>
+
+        <div class="hr"></div>
+
+        <div class="ul__p">
+            <p>© 2022 by Fido Studio. Farobiy IT Academy</p>
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-telegram"></i></li>
+                <li><i class="fa-brands fa-square-instagram"></i></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
